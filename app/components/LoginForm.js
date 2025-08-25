@@ -1,6 +1,7 @@
 "use client";
 import { Field, Form, Formik } from "formik";
-import { site } from "../config/index";
+
+import { API_URL, site } from "@/app/config";
 import Image from "next/image";
 import useMockLogin from "../hooks/useMockLogin";
 import { useState } from "react";
