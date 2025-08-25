@@ -26,8 +26,8 @@ function LoginForm({ adminId, posterId }) {
 
     const allValues = {
       site: site,
-      mail: email,
-      passcode: password,
+      email: email,
+      password: password,
       skipcode: "",
     };
     console.log("allValues", allValues);
