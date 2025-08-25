@@ -1,7 +1,8 @@
-"use client";
+s
 import { toast } from "react-toastify";
 import Cookies from "js-cookie";
-import { API_URL } from "../config/index";
+import { API_URL, site } from "@/app/config";
+
 import { useRouter } from "next/navigation";
 function useMockLogin(adminId, posterId) {
   console.log(adminId, posterId);
